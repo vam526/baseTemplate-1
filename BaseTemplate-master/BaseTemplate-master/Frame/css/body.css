@@ -56,6 +56,18 @@
   
 }
 /*Button*/
+#cent{
+    align-items: center;
+    display:block;
+    margin: 15px auto;
+    width: 95%;
+}
+#bent{
+    align-items: center;
+    display:block;
+    margin: 15px auto;
+    width: 95%;
+}
 .container-fluid .col .btn{
     padding: 5px 10px !important;
     font-size: 12px !important;
@@ -88,6 +100,7 @@
 
   }
   /*Carousels*/
+ 
   
 
 
