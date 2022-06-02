@@ -153,29 +153,32 @@
 @media (max-width:1200px) {
     .para{
         position: relative;
-        width: 40% !important;
-        
+        font-size: 10px !important;
         padding: 15px;
-    }
-    .pic{
-        width:35% !important;
-        height: 363px !important;
-    }
     
-}
-@media (max-width:1150px) {
-    .para{
-        width: 90% !important;
-        margin-top: 20px !important;
-        
-        padding: 15px;
     }
     #pic{
-        height: 363px !important;
+        width:95% !important;
+        height: 424px !important;
     }
-       .pic{
-        width:90% !important;
+    #pic1{
+        width: 95% !important;
+       height: 385px !important;
     }
+    #carouselExampleIndicators{
+        margin-left: 75px !important;
+       
+        height: 350px !important;
+    }
+    #carouselExampleCaptions{
+        margin-left: 75px !important;
+        height: 350px !important;
+        
+        
+    }
+    
+
+    
 }
 
 
@@ -188,40 +191,35 @@
 
 
 
-@media (max-width:1140px) {
+
+
+@media (min-width:760px)  and (max-width:1140px) {
     .para{
-        width:90% !important;
-        margin: 10px auto;
-        padding: 15px;
+        width:95% !important;
+        top: 20px;
+        padding: 20px;
     }
-    .pic{
-        display: block;
-        margin: 20px auto ;
-        width: 90% !important;
-        padding: 8px;
+    
+    #pic1{
+        width: 90%;
     }
     #carouselExampleIndicators{
         align-items: center;
         display:block;
         margin: 10px auto;
-        width: 80%;
+        width: 84%;
         
     }
     #carouselExampleCaptions{
         align-items: center;
         display:block;
         margin: 10px auto;
-        width: 80%;
-
-       
-        
-        
-        
+        width: 84%;
     }
 
     
 }
-@media (max-width:768px){
+@media (max-width:760px){
     .pic{
         margin: 20px !important;
         width: 90% !important;
@@ -236,14 +234,15 @@
     }
     #carouselExampleCaptions{
         align-items: center;
-        display:block;
-        margin: 10px auto;
+        
+        
        
         height: 55%;
         
         
     }
     .para{
+        width: 95% !important;
         font-size: 8px !important;
         margin: 10px auto;
         padding: 12px  6px 12px 12px !important;
